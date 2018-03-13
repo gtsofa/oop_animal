@@ -38,10 +38,27 @@ class Animal:
     def get_weight(self):
         return self.__weight
 
-    def set_sound(slef, sound):
+    def set_sound(self, sound):
         self.__sound = sound
 
     def get_sound(self):
         return self.__sound
+
+    
+
+    # demonstrate polymorphism 
+    def get_type(self):
+        '''will print out the object name'''
+        print("Animal")
+
+    def toString(self):
+        return "{} is {} cm tall and {} kilograms and say {}".format(self.__name, self.__height, self.__weight, self.__sound)
+
+    
+# create the object to test the attributes how it looks like
+cat = Animal("Borris", 33, 10, "Meow")
+
+print(cat.toString())
+
 
     
