@@ -93,7 +93,7 @@ class Dog(Animal):
 # create Dog object now to test the dog class
 spot = Dog('Spot', 53, 27, 'Ruff', 'Julio')
 
-print(spot)
+print(spot.toString())
 
 
 
