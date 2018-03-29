@@ -1,6 +1,6 @@
 # Animal class
 
-class Animal:
+class Animal(object):
     """
     preceding variable with __ makes them private that means
     if we want to use them we first need to create a function in this class
